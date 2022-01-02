@@ -312,6 +312,10 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 .features h2 {
   margin-bottom: 60px;
 }
@@ -336,11 +340,10 @@ input[type=button] {
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #2a423a;
-
 }
 
 .reviews h2 {
@@ -556,7 +559,10 @@ input[type=button] {
       display: none;
     }
       
-          /* Hero Area */
+/* Hero Area */
+.hero-area {
+  min-height: 600px;
+}
       
           /* Aside */
     aside .content-wrapper {
@@ -568,7 +574,7 @@ input[type=button] {
       
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {        
-      width: 40%;         
+      width: 35%;         
       margin: 0;
     }
       
@@ -615,7 +621,7 @@ input[type=button] {
       margin: 100px 0;
     }
           
-    .footer-content {
+    footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -701,7 +707,7 @@ input[type=button] {
     padding: 15px 0;
   }
   
-    .content-wrapper {
+  .content-wrapper {
     max-width: 960px;
   }
 
@@ -722,7 +728,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
@@ -732,7 +738,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
